@@ -1,10 +1,24 @@
 h1 {
-  color: purple;
+  color: #355682;
   text-align: center;
+  background-color: #6bd0ff;
 }
 h2 {
-  Color: blue
+  Color: #355682;
 }
 h3{
-  color: green
+  color: #black;
+}
+ul {
+  $
+}
+body {
+  background-color: #ade5ff;
+}
+.instructions{
+  font-style: italic;
+}
+.sidebar{
+  float: right;
+  background-color: #ffaffd;
 }

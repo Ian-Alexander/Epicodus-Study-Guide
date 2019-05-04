@@ -7,33 +7,63 @@
   <body>
     <h1>Coding Notes</h1>
     <h2>Setting Pairs</h2>
-    <ol>
+    <div class="sidebar">
+      <p>Use this key to locate a topic:</p>
+      <ol>
+        <li>Setting up pairs</li>
+        <li>CSS</li>
+        <li>etc.</li>
+    </div>
+    <div class="instructions">
+    <ul>
       <li>In the home directory, create a file called .pairs</li>
       <li>Open the .pairs file using atom</li>
       <li>Set pairs in atom by replicating the following format, using you and your partners initials and email addresses.</li>
-      <img src="pairsexample.jpg" alt="pairs example"/>
-      </ol>
+      <img src="img/pairsexample.jpg" alt="pairs example"/>
+    </ul>
+    </div>
     <p>If you are working alone, you need to set up a global configuration instead, using the following commands:</p>
-      <img src="globalgitconfig.jpg" alt="global git config"/>
+      <img src="img/globalgitconfig.jpg" alt="global git config"/>
     <p>To initiate the git pair for a project, use the following commands:</p>
-    <img src="gitpaircommands.jpg" alt="git pair commands"/>
+    <img src="img/gitpaircommands.jpg" alt="git pair commands"/>
+    <p>"al" and "edlf" refer to the pairs initials in this example.</p>
     <h2>CSS</h2>
     <h3>Linking CSS with your HTML</h3>
+    <div class="instructions">
     <ol>
       <li>Set up a directory in your project directory called CSS</li>
       <li>from within that folder, make a file called styles.css ("styles" is variable)</li>
       <li>check to make sure the css program is running in atom</li>
+    </div>
     <p>Now we need to tell our HTML document to listen to this CSS, by writing it in the code</p>
-      <img src="cssscript.jpg" alt="css code"/>
+      <img src="img/cssscript.jpg" alt="css code"/>
     <p>If you want to copy and paste, follow <a href="https://www.learnhowtoprogram.com/intro-to-programming-evening/git-html-css-cc4d4bfd-fd26-4b35-b936-5d3e09999094/css-styling-text">this link</a></p>
     </ol>
     <h3>Setting up CSS Commands</h3>
     <p>You will type css setting into the styles.css file on atom, like the example below</p>
-    <img src="csssettings.jpg"alt="css settings"/>
+    <img src="img/csssettings.jpg"alt="css settings"/>
     <p>In the example above, Each individual block is a <b>rule</b>. h1, h2, p, and ul are all <b>selectors</b>. color, text-align, font-style, font-family, font-size and line-height are all <b>properties</b>. blue, center, italic, sans-serif, 20px and 30px are all <b>values</b>. The entire file styles.css is a <b>stylesheet</b>.</p>
     <h3>Setting up classes</h3>
     <p>You can set up classes (or tags) for specific functions in css. If you want to set a rule that everytime you code in a certain word, like "important", you can shortcut to a particular function. It would look something like this:</p>
-      <img src="cssclasses.jpg"alt="css classes"/>
+      <a href='https://photos.google.com/share/AF1QipNu3bM0pXaCscPL5eqm-FL9U1p-dU2eRTN-zFXgVIeUeuTTC3upYF4INu0BAYvgKg?key=N08zSTg3eUVWNGpBOGJTX09SRWxCU1F5c2NDLUtR&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/Aan8zNrhxpfGq1yC3_d7pkiTW-ntabC8aizMckKs2RL0ByD0rgQgJhINKGFrXHn8BY9gmSLaL1ikL8-TpRcxYyYZn3X5pHqKd_8cK9aej46h092Qt2N0lLIR4ZXgeFxE1IoB02MbPQ=w2400' /></a>
+    <h3>Git Branches</h3>
+    <p>You can create clones of the master repository so you can work on the project without affecting the master document.</p>
+    <p>To make a branch, you need to</p>
+    <div class="instructions">
+    <ol>
+      <li>$ git branch gh-pages</li>
+      <ul>
+        <li>"gh-pages" is the variable name of the branch.</li>
+      </ul>
+      <li>$ git checkout gh-pages</li>
+    </div>
+    </ol>
+    <p>You wont see your new branch until you push your code into it, by typing:</p>
+    <ul>
+      <li>$ git push (git hub link) gh-pages</li>
+    </ul>
+    <p>Now you should see a new branch appear in your git hub repositiory</p>
+    <p>There is an overview of branching and major processes leading up to it <a href=https://www.learnhowtoprogram.com/intro-to-programming-evening/git-html-css-cc4d4bfd-fd26-4b35-b936-5d3e09999094/git-branching>here</a> </p>
 
   </body>
 </html>
